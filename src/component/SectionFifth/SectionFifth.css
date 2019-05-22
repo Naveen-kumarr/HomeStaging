@@ -1,0 +1,26 @@
+.card
+{
+border:none!important;
+position:relative;
+}
+.card-body
+{
+	padding:0px!important;
+}
+.card-text
+{
+	padding-bottom:10px!important;
+	
+}
+.seemore
+{
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:white;
+	
+}
+.custom
+{
+	padding-bottom:10px;
+}

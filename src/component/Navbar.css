@@ -1,0 +1,30 @@
+
+.sticky-top
+{
+	position:fixed;
+	width:100%;
+	color:white;
+}
+@media only screen and (max-width: 763px){ 
+.desktop
+{
+	display:none;
+}
+}
+@media only screen and (max-width: 763px){ 
+.mobile
+{
+	display:none;
+}
+}
+@media only screen and (min-width: 763px){ 
+.desktopnone
+{
+	display:none;
+}
+}
+.bg-light
+{
+	background-color:transparent!important;
+	border-bottom:1px solid #dcdcdc;
+}
