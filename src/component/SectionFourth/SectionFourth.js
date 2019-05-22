@@ -5,7 +5,7 @@ render()
 {
 return(
 <div>
-<div className="container custom">
+<div className="container custom projectsec">
 <div className="row">
 <div className="col-md-4 col-sm-12 view">
 <h3>Nvest have completed over 300 projects globally</h3>
