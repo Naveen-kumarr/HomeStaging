@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from '../component/Navbar'
-import SectionFirst from '../component/SectionFirst/SectionFirst'
+import SectionThird from '../component/SectionThird/SectionThird'
+//import SectionFirst from '../component/SectionFirst/SectionFirst'
 import SectionSecond from '../component/SectionSecond/SectionSecond'
 import HomeStageSectionThree from '../component/HomeStageSectionThree/HomeStageSectionThree'
 import SectionFifth from '../component/SectionFifth/SectionFifth'
@@ -14,7 +15,8 @@ render()
 return(
 <div>
 <Navbar/>
-<SectionFirst/>
+<SectionThird/>
+
 <SectionSecond/>
 <HomeStageSectionThree/>
 <SectionFourth/>
