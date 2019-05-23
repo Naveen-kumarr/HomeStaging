@@ -17,7 +17,7 @@ return(
   <div className="row">
   {this.state.realestate.map(rs=>{
 	  return (
-	  <div className="col-sm custom"key={rs.id}>
+	  <div className="col-sm custom">
      <div className="card" >
   <img src={rs.image} className="card-img-top" />
   <div classNameName="seemore p-2">
