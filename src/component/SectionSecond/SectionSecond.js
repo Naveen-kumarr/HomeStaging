@@ -28,7 +28,7 @@ return(
 
 
 <div className="card child" style={{width: "12rem"}}>
-  <div className="card-body">
+  <div className="card-body style">
     <h5 className="card-title">Card title</h5>
     <p className="card-text"> build on the card title ancontent.</p>
     <p>View</p>
@@ -42,7 +42,7 @@ return(
 <div className="customcol1">
 
 <div className="card child1" style={{width: "10rem"}}>
-  <div className="card-body">
+  <div className="card-body style">
     <h5 className="card-title">Card title</h5>
     <p className="card-text"> build on the card title ancontent.</p>
     <p>View</p>
@@ -62,7 +62,7 @@ return(
 
 
 <div className="card child2" style={{width: "12rem"}}>
-  <div className="card-body">
+  <div className="card-body style">
     <h5 className="card-title">Card title</h5>
     <p className="card-text"> build on the card title ancontent.</p>
     <p>View</p>
@@ -77,7 +77,7 @@ return(
 <div className="customcol2">
 
 <div className="card" style={{width: "10rem"}}>
-  <div className="card-body">
+  <div className="card-body style">
     <h5 className="card-title">Card title</h5>
     <p className="card-text"> build on the card title ancontent.</p>
     <p>View</p>

@@ -48,10 +48,7 @@ background-image: url('../../images/Number2.png');
 .top-bg-slide .carousel-indicators>li:nth-child(3){
 background-image: url('../../images/Number3.png');
 }
-.top-bg-slide .carousel-indicators>li::after{
-content: '1';
-color: #000000;
-}
+
 .top-bg-slide .carousel-control-prev{
 display: none;
 }

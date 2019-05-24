@@ -33,6 +33,9 @@ height:350px;
 /* width:350px; */
 position: relative;
 }
+.style{
+margin:15px!important;
+}
 .customcol2
 {
 	background-image:url('../../images/background.jpg');
@@ -42,7 +45,9 @@ height:500px;
 /* width:350px; */
 position: relative;
 }
-
+.card{
+	border-radius:0px!important;
+}
 
 .custom1
 {
