@@ -36,6 +36,11 @@ position: relative;
 .style{
 margin:15px!important;
 }
+.textsection
+{
+	padding-left:50px;
+	padding-right:50px;
+}
 .customcol2
 {
 	background-image:url('../../images/background.jpg');

@@ -7,15 +7,13 @@ return(
 <div>
 <div className="container">
   <div className="row customrow">
-    <div className="col-5">
+    <div className="col-md-6 col-sm-12 textsection">
 	<p style={{fontSize:"12px"}}>Why Us</p>
      <h3>30 year experience custom built homes design innovation quality workmanship</h3>
 	 <p style={{fontSize:"12px",paddingTop:"10px"}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing dummy text of the printingdummy text of the printingdummy text of the printingdummy text of the printing </p>
     </div>
-	<div className="col-2">
 	
-	</div>
-    <div className="col-5">
+    <div className="col-md-6 col-sm-12 textsection">
 	<p style={{fontSize:"12px"}}>01.</p>
      <h3>Concept Design</h3>
 	 <p style={{fontSize:"12px",paddingTop:"10px"}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum is simply dummy text </p>
