@@ -12,22 +12,28 @@ return (
 <div className="top-bg-slide">
 <Carousel>
 <Carousel.Item>
-<img className="d-block w-100 h-100" src={Slideimg1} alt="First slide"/>
+<img className="d-block w-100 h-100 grey-clr" src={Slideimg1} alt="First slide"/>
 </Carousel.Item>
 <Carousel.Item>
-<img className="d-block w-100 h-100" src={Slideimg2} alt="Third slide"/>
+<img className="d-block w-100 h-100 grey-clr" src={Slideimg2} alt="Third slide"/>
 </Carousel.Item>
 <Carousel.Item>
-<img className="d-block w-100 h-100" src={Slideimg3} alt="Third slide"/>
+<img className="d-block w-100 h-100 grey-clr" src={Slideimg3} alt="Third slide"/>
 </Carousel.Item>
 </Carousel>
 <div className="top-silde-item">
+<div> 
 <small className="text-white">ARCHITECTURE</small>
-<h1 className="pt-4 text-white">Isolated Post<br/>Modern Prefab</h1>
+<h1 className="pt-4 text-white txt-sty">Isolated Post<br/>Modern Prefab</h1>
 <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br/> 
-incididunt ut labore det dolore magna aliqua. Ut enim ad minim veniam,<br/> 
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+incididunt ut labore det dolore magna aliqua. Ut enim ad minim veniam.
 </p>
+</div>
+<div className="pt-5 mt-5 text-white">
+<a className="soci-lk"><i class="fab fa-facebook-square"></i></a>
+<a className="soci-lk"><i class="fab fa-twitter-square"></i></a>
+<a className="soci-lk"><i class="fab fa-instagram"></i></a>
+</div>
 </div>
 </div>
 </div>

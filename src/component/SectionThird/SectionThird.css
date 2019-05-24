@@ -55,3 +55,13 @@ display: none;
 .top-bg-slide .carousel-control-next{
 display: none;
 }
+.txt-sty{
+font-size: 4rem;
+font-weight: 100
+}
+.soci-lk{
+border: 1px solid #FFFFFF;
+border-radius: 50%;
+padding: 10px;
+margin-right: 8px; 
+}
