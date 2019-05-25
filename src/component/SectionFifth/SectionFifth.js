@@ -4,9 +4,9 @@ import Background from '../../images/background.jpg'
 export default class SectionFifth extends Component {
 	state={
 		realestate:[
-		{id:1,title:"The Cliff Hanger",desc:"Some quick example text to build on the card title and make up the bulk of the card's content.",image:Background},
-		{id:2,title:"The Cliff Hanger",desc:"Some quick example text to build on the card title and make up the bulk of the card's content.",image:Background},
-		{id:3,title:"The Cliff Hanger",desc:"Some quick example text to build on the card title and make up the bulk of the card's content.",image:Background},
+		{id:1,title:"The Cliff Hanger",desc:"Bed:3 Bath:4",image:Background},
+		{id:2,title:"Spicks and Specks",desc:"Bed:3 Bath:4",image:Background},
+		{id:3,title:"The Cliff Hanger",desc:"Bed:3 Bath:4",image:Background},
 		]
 	}
 render()
@@ -24,8 +24,8 @@ return(
   <h5>See More</h5>
   </div>
   <div className="card-body">
-    <h5 className="card-title">{rs.title}</h5>
-  <p className="card-text">{rs.desc}</p>
+    <h5 className="card-title customtitle">{rs.title}</h5>
+  <p className="card-text customdesc">{rs.desc}</p>
   </div>
 </div>
     </div>

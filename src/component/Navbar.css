@@ -20,24 +20,19 @@
 	color:white;
 	background-color: rgba(0,0,0,0.4) !important;
 }
-@media only screen and (max-width: 763px){ 
-.desktop
+@media only screen and (max-width: 991px){ 
+.mobilenone
 {
 	display:none;
 }
 }
-@media only screen and (max-width: 763px){ 
-.mobile
+@media only screen and (min-width: 991px){ 
+.mobileview
 {
-	display:none;
+display:none	
 }
 }
-@media only screen and (min-width: 763px){ 
-.desktopnone
-{
-	display:none;
-}
-}
+
 .bg-light
 {
 	background-color:transparent!important;

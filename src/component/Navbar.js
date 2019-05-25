@@ -8,8 +8,8 @@ return(
 <div>
 <div className="sticky-top">
 <nav className="navbar navbar-expand-lg navbar-light bg-light">
-  <a className="navbar-brand mobile colorchange" href="#">Navbar</a>
-  <img src={Logo} className="navbar-brand desktopnone" style={{width:"50px",height:"50px"}}/>
+  <a className="navbar-brand colorchange mobileview" href="#"> <img src={Logo} style={{width:"50px",height:"50px"}}/></a>
+ 
   <button className="navbar-toggler customtoggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
@@ -23,7 +23,7 @@ return(
       </li>
 	   </ul>
 	   
-	   <ul className="navbar-nav mx-auto desktop">
+	   <ul className="navbar-nav mx-auto mobilenone">
 	 <img src={Logo} style={{width:"50px",height:"50px"}}/>
 	   </ul>
 	   
