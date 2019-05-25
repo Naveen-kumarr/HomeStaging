@@ -4,9 +4,9 @@ import Background from '../../images/background.jpg'
 export default class SectionFifth extends Component {
 	state={
 		realestate:[
-		{id:1,title:"The Cliff Hanger",desc:"Bed:3 Bath:4",image:Background},
-		{id:2,title:"Spicks and Specks",desc:"Bed:3 Bath:4",image:Background},
-		{id:3,title:"The Cliff Hanger",desc:"Bed:3 Bath:4",image:Background},
+		{id:1,title:"The Cliff Hanger",desc:"Bed:3 Bath:4",image:Background,button:"See More"},
+		{id:2,title:"Spicks and Specks",desc:"Bed:3 Bath:4",image:Background,button:"See More"},
+		{id:3,title:"The Cliff Hanger",desc:"Bed:3 Bath:4",image:Background,button:"See More"},
 		]
 	}
 render()
@@ -20,8 +20,8 @@ return(
 	  <div className="col-sm custom">
      <div className="card" >
   <img src={rs.image} className="card-img-top" />
-  <div classNameName="seemore p-2">
-  <h5>See More</h5>
+  <div classNameName="seemore ">
+  <h5 className="buttonsection p-2">{rs.button}</h5>
   </div>
   <div className="card-body">
     <h5 className="card-title customtitle">{rs.title}</h5>

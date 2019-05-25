@@ -12,9 +12,9 @@ position:relative;
 	padding-bottom:10px!important;
 	
 }
-.seemore
+.buttonsection 
 {
-	position:absolute;
+	position:absolute!important;
 	top:0;
 	left:0;
 	background-color:white;
