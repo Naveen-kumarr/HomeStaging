@@ -1,0 +1,25 @@
+.fourthsectionpara
+{
+font-size:20px;
+}
+.modifiedtext
+{
+	font-weight:800;
+	  letter-spacing: 0.05em;
+}
+@media only screen and (max-width:767px){
+.alignment
+{
+	    text-align: -webkit-center;
+}
+}
+.afterimage
+{
+	padding-top:300px;
+}
+@media only screen and (max-width:767px){
+	.afterimage
+{
+	padding-top:100px;
+}
+}

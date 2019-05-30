@@ -9,11 +9,14 @@ import SectionFourth from '../component/SectionFourth/SectionFourth'
 import HomeStageSectionSix from '../component/HomeStageSectionSix/HomeStageSectionSix'
 import SectionSeventh from '../component/SectionSeventh/SectionSeventh'
 //import Footer from '../component/Footer/Footer'
+import AboutPageSectionOne from '../component/AboutPage/SectionOne/SectionOne'
+import AboutPageSectionFour from '../component/AboutPage/SectionFour/SectionFour'
 export default class Home extends Component {
 render()
 {
 return(
 <div>
+
 <Navbar/>
 <SectionThird/>
 
@@ -23,7 +26,8 @@ return(
 <SectionFifth/>
 <HomeStageSectionSix/>
 <SectionSeventh/>
-
+<AboutPageSectionOne/>
+<AboutPageSectionFour/>
 </div>
 )
 }

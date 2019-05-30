@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Logo from '../images/logo.png'
 import './Navbar.css'
+import {Link} from 'react-router-dom'
 export default class Navbar extends Component {
 render()
 {
@@ -18,9 +19,11 @@ return(
       <li className="nav-item active">
         <a className="nav-link colorchange" href="#">Home <span className="sr-only">(current)</span></a>
       </li>
+	  <Link to={{pathname:"/about"}}>
       <li className="nav-item ">
-        <a className="nav-link colorchange" href="#">Features</a>
+        <a className="nav-link colorchange" href="#">About</a>
       </li>
+	  </Link>
 	   </ul>
 	   
 	   <ul className="navbar-nav mx-auto mobilenone">
