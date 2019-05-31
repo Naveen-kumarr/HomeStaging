@@ -16,9 +16,11 @@ return(
   </button>
   <div className="collapse navbar-collapse" id="navbarNavDropdown">
     <ul className="navbar-nav">
+	<Link to={{pathname:"/"}}>
       <li className="nav-item active">
         <a className="nav-link colorchange" href="#">Home <span className="sr-only">(current)</span></a>
       </li>
+	  </Link>
 	  <Link to={{pathname:"/about"}}>
       <li className="nav-item ">
         <a className="nav-link colorchange" href="#">About</a>
@@ -31,9 +33,11 @@ return(
 	   </ul>
 	   
 	  	  <ul className="navbar-nav">
+		  	  <Link to={{pathname:"/service"}}>
       <li className="nav-item ">
-        <a className="nav-link colorchange" href="#">Pricing</a>
+        <a className="nav-link colorchange" href="#">Services</a>
       </li>
+	  </Link>
 	 
 
        <li className="nav-item ">

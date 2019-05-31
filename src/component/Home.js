@@ -26,8 +26,7 @@ return(
 <SectionFifth/>
 <HomeStageSectionSix/>
 <SectionSeventh/>
-<AboutPageSectionOne/>
-<AboutPageSectionFour/>
+
 </div>
 )
 }
