@@ -18,17 +18,17 @@ export default class Education extends Component {
                   {this.state.data.map(item => {
                       return(
                         <div className="row m-0">
-                        <div className="col-md-4 col-sm-12 col-xs-12 pb-5 pt-2 mob-edu">
+                        <div className="col-md-4 col-sm-12 col-xs-12 pb-5 pt-2 mob-edu" data-aos="fade-right">
                             <h1 style={{color:"white"}}>{item.title}</h1>
                         </div>
-                        <div className="col-md-4 col-sm-6 col-xs-6 pt-2 pb-5 mob-edu">
+                        <div className="col-md-4 col-sm-6 col-xs-6 pt-2 pb-5 mob-edu" data-aos="zoom-in-up">
                             <h5 style={{color:"white"}}>{item.degree}</h5>
                             <h6  style={{color:"#E3F2F4"}}>{item.college}</h6>
                             <h5  style={{color:"white"}}>{item.work}</h5>
                             <h6  style={{color:"#E3F2F4"}}>{item.company}</h6>
                             <h6  style={{color:"#E3F2F4"}}>{item.description}</h6>
                         </div>
-                        <div className="col-md-4 col-sm-6 col-xs-6 pb-5 pt-2 mob-edu">
+                        <div className="col-md-4 col-sm-6 col-xs-6 pb-5 pt-2 mob-edu" data-aos="zoom-in-up">
                             <h6 style={{color:"#E3F2F4"}}>{item.year}</h6>
                             <h6 style={{color:"#E3F2F4"}}>{item.address}</h6>
                         </div>
