@@ -13,7 +13,7 @@ export default class Education extends Component {
     render() {
         return (
 		<div className="container-fluid ">
-            <div className="mob-edu-pad" style={{ backgroundColor: "#38A4B4" }}>
+            <div className="mob-edu-pad" style={{ backgroundColor: "#38A4B4",paddingTop:"100px" }}>
                 <div className="">
                   {this.state.data.map(item => {
                       return(
