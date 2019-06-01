@@ -1,69 +1,63 @@
 import React, { Component } from 'react'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Header from '../Navbar'
 import ServiceSectionOne from './BannerSection/Banner'
 import ServiceSectionTwo from './Latestprojects/LatestProjects'
 import ServiceSectionThree from './ImageSection/ImageSection'
 import Footer from '../SectionSeventh/SectionSeventh'
+import {Tabs,Tab,Sonnet} from 'react-bootstrap'
+AOS.init();
 export default class Firstsec extends Component {
 	state={
-    bannerheader:"2 ROW 3 COLUMN WITH SLIDER",
-    home:"HOME",
-    protfolio:"PORTFOLIO",
-    currentpage:"2 ROW 3 COLUMN WITH SLIDER",
-    firstslideimages:[
-      {
-        id:1,
-        para:'Interior Design',
-        header:'Bloomfield St.',
-        viewmore:'VIEW MORE',
-        image:'https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362'
-      },
-      {
-        id:2,
-        para:'Interior',
-        header:'Bloomfield St.',
-        viewmore:'VIEW MORE',
-        image:'https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362'
-      },
-      {
-        id:3,
-        para:'Design',
-        header:'Bloomfield St.',
-        viewmore:'VIEW MORE',
-        image:'https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362'
-      },
-      {
-        id:4,
-        para:'Interior Design',
-        header:'Bloomfield St.',
-        viewmore:'VIEW MORE',
-        image:'https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362'
-      },
-      {
-        id:5,
-        para:'Design',
-        header:'Bloomfield St.',
-        viewmore:'VIEW MORE',
-        image:'https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362'
-      },
-      {
-        id:6,
-        para:'Int Design',
-        header:'Bloomfield St.',
-        viewmore:'VIEW MORE',
-        image:'https://images.unsplash.com/photo-1433360405326-e50f909805b3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=359e8e12304ffa04a38627a157fc3362'
-      },
-    ]
-  }
+bannerheader:"All Services",
+home:"HOME",
+protfolio:"PORTFOLIO",
+currentpage:"All Services",
+}
+
+
     render() {
         return (
-		<div>
-		<Header/>
-		<ServiceSectionOne/>
-		<ServiceSectionTwo/>
-		<ServiceSectionThree firstslideimages={this.state.firstslideimages}/>
-		 <Footer/>
-		</div>
+		
+		<div className="App">
+<ServiceSectionOne 
+bannerheader={this.state.bannerheader}
+home={this.state.home}
+protfolio={this.state.protfolio}
+currentpage={this.state.currentpage}
+/>
+<Header/>
+<ServiceSectionTwo/>
+<br>
+</br>
+
+<div style={{marginLeft:"4%",marginRight:"4%"}}>
+<Tabs defaultActiveKey="all" transition={false} id="noanim-tab-example">
+<Tab eventKey="all" title="All Services">
+<ServiceSectionThree data="all"/>
+</Tab>
+<Tab eventKey="design" title="Vacant">
+<ServiceSectionThree data="Vacant"/>
+</Tab>
+<Tab eventKey="interior" title="Occupied">
+<ServiceSectionThree data="Occupied"/>
+</Tab>
+<Tab eventKey="design1" title="Individuals">
+<ServiceSectionThree data="Individuals"/>
+</Tab>
+<Tab eventKey="design2" title="Brokers">
+<ServiceSectionThree data="Brokers"/>
+</Tab>
+<Tab eventKey="design3" title="Real Estate">
+<ServiceSectionThree data="Real Estate"/>
+</Tab>
+
+</Tabs>
+</div>
+<Footer/>
+</div>
+
 		)
 	}
 }
