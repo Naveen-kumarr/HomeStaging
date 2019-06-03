@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import {Carousel} from 'react-bootstrap';
 import './HomeStageSectionThree.css';
-import Slideimg1 from '../../images/Homestagesec3.jpg';
-import Slideimg2 from '../../images/Homestagesec3a.jpg';
-import Slideimg3 from '../../images/Homestagesec3b.jpg';
+import Slideimg1 from '../../images/homestage8.jpg';
+import Slideimg2 from '../../images/homestage9.jpg';
+import Slideimg3 from '../../images/homestage10.jpg';
 
 export default class Homestagesectionthree extends Component {
     render() {
