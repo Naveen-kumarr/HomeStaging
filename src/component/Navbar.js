@@ -39,10 +39,11 @@ return(
       </li>
 	  </Link>
 	 
-
+ <Link to={{pathname:"/contact"}}>
        <li className="nav-item ">
-        <a className="nav-link colorchange" href="#">Anything</a>
+        <a className="nav-link colorchange" href="#">Contact Us</a>
       </li>
+	  </Link>
     </ul>
   </div>
 </nav>

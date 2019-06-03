@@ -15,12 +15,11 @@ export default class Firstsec extends Component {
                      
                             <div className="col-md-6 col-sm-12" data-aos="fade-right">
                                 <p className="text1" >HI! GOOD TO SEE YOU</p>
-                                <p className="text2">I have exquisite taste and boundless curiosity to create a masterpiece</p>
+                                <p className="text2">I LOVE when the sold price is a record-breaking price for the street…which happens OFTEN!” Sue Kempton.</p>
                             </div>
 
                             <div className="col-md-6 col-sm-12" data-aos="fade-left">
-                                <p className="text3">Harold studied at the Milan School of Interior Design and gained his experience working at five top design firms in Milan.  He have designed, renovated and redesigned high end residential projects throughout the city and was fortunate to work
-                                  on Megapolitan Home’s House, a $90 million, 17,800 square foot Greek Revival townhouse</p>
+                                <p className="text3">Sue Kempton has over 20 years of experience in home staging. Though she had many successful years in the early days of her career, in 2008 she was Certified as a Certified Staging Professional (CSP) and became a member of the Real Estate Staging Association (RESA). By this time Finesse Interiors Real Estate Staging had grown exponentially!</p>
 
                             </div>
                         </div>

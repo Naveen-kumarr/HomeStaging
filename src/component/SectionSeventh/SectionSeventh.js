@@ -12,13 +12,13 @@ return(
 <div className="col-md-4 col-sm-12 textcolor textalign">
 <p style={{paddingBottom:"20px"}}>Contact Us</p>
 <p>Phone</p>
-<h1 style={{paddingBottom:"40px"}}>9476745353746</h1>
+<h1 style={{paddingBottom:"40px"}}>416-271-7846</h1>
 <p>Dummy ckjdhcudhu</p>
 <p>Duhfcjrnjvnj</p>
 </div>
 <div className="col-md-8 col-sm-12 textcolor textalign">
 <p style={{paddingTop:"60px"}}>Email</p>
-<h1 style={{paddingBottom:"40px"}}>abcde@gmail.com</h1>
+<h1 style={{paddingBottom:"40px"}}>finesseinteriors@rogers.com</h1>
 <p>Mon-Fri 5:00AM - 10:00PM</p>
 <p>Sat-Sun 5:00AM - 10:00PM</p>
 </div>
