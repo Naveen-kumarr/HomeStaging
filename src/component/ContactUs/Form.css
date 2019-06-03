@@ -1,4 +1,9 @@
-
+@media only screen and (max-width:767px){
+.vl
+{
+	display:none;
+}
+}
 .vl {
     border-left: 2px solid  rgb(168, 166, 166);
     height: 100px;
