@@ -3,6 +3,10 @@
     height: 100%;
     background-size: 100%  100%;
 }
+.imageSectionHomeStaging .carousel-control-next, .carousel-control-prev
+{
+	border-radius: 0!important;
+}
 .slide-testimonials{
     margin-top: 3rem;
 }

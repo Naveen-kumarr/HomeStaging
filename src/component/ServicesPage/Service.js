@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import './Services.css'
 import Header from '../Navbar'
 import ServiceSectionOne from './BannerSection/Banner'
 import ServiceSectionTwo from './Latestprojects/LatestProjects'
@@ -33,7 +34,7 @@ currentpage={this.state.currentpage}
 </br>
 
 <div style={{marginLeft:"4%",marginRight:"4%"}}>
-<Tabs defaultActiveKey="all" transition={false} id="noanim-tab-example">
+<Tabs defaultActiveKey="all" className="lineremoval" transition={false} id="noanim-tab-example">
 <Tab eventKey="all" title="All Services">
 <ServiceSectionThree data="all"/>
 </Tab>

@@ -1,3 +1,9 @@
+@media only screen and (max-width:767px){
+.mobilevieww
+{
+margin-top:150px;	
+}
+}
 .top-bg-slide{
 position: relative; 
 }

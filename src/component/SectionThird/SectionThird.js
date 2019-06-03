@@ -22,11 +22,11 @@ return (
 </Carousel.Item>
 </Carousel>
 <div className="top-silde-item">
-<div> 
+<div className="mobilevieww"> 
 <small className="text-white">ARCHITECTURE</small>
 <h1 className="pt-4 text-white txt-sty">Isolated Post<br/>Modern Prefab</h1>
 <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br/> 
-incididunt ut labore det dolore magna aliqua. Ut enim ad minim veniam.
+incididunt ut labore det dolore magna.
 </p>
 </div>
 <div className="pt-5 mt-5 text-white">
