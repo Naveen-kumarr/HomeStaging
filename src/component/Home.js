@@ -7,6 +7,7 @@ import HomeStageSectionThree from '../component/HomeStageSectionThree/HomeStageS
 import SectionFifth from '../component/SectionFifth/SectionFifth'
 import SectionFourth from '../component/SectionFourth/SectionFourth'
 import HomeStageSectionSix from '../component/HomeStageSectionSix/HomeStageSectionSix'
+import Enquiry from '../component/Enquiry/Enquiry'
 import SectionSeventh from '../component/SectionSeventh/SectionSeventh'
 //import Footer from '../component/Footer/Footer'
 import AboutPageSectionOne from '../component/AboutPage/SectionOne/SectionOne'
@@ -25,6 +26,7 @@ return(
 <SectionFourth/>
 <SectionFifth/>
 <HomeStageSectionSix/>
+<Enquiry/>
 <SectionSeventh/>
 
 </div>

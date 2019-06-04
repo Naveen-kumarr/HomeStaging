@@ -19,7 +19,7 @@ export default class Firstsec extends Component {
                             </div>
 
                             <div className="col-md-6 col-sm-12" data-aos="fade-left">
-                                <p className="text3">Sue Kempton has over 20 years of experience in home staging. Though she had many successful years in the early days of her career, in 2008 she was Certified as a Certified Staging Professional (CSP) and became a member of the Real Estate Staging Association (RESA). By this time Finesse Interiors Real Estate Staging had grown exponentially!</p>
+                                <p className="text3">Sue Kempton has over 20 years of experience in home staging. Sue is extremely focussed and does her best with each project. Her goal for each property is that she transforms it into getting it sold for TOP DOLLAR in record time! </p>
 
                             </div>
                         </div>

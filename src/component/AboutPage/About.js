@@ -5,6 +5,7 @@ import SectionTwo from './SectionTwo/Firstsec'
 import SectionThree from './SectionThree/Education'
 import SectionThreea from './SectionThreea/EducationImage'
 import SectionFour from './SectionFour/SectionFour'
+import Enquiry from '../Enquiry/Enquiry'
 import Footer from '../SectionSeventh/SectionSeventh'
 
 export default class Home extends Component {
@@ -18,6 +19,7 @@ return(
 <SectionThree/>
 <SectionThreea/>
 <SectionFour/>
+<Enquiry/>
 <Footer/>
 
 </div>

@@ -6,6 +6,7 @@ import Header from '../Navbar'
 import ServiceSectionOne from './BannerSection/Banner'
 import ServiceSectionTwo from './Latestprojects/LatestProjects'
 import ServiceSectionThree from './ImageSection/ImageSection'
+import Enquiry from '../Enquiry/Enquiry'
 import Footer from '../SectionSeventh/SectionSeventh'
 import {Tabs,Tab,Sonnet} from 'react-bootstrap'
 AOS.init();
@@ -56,6 +57,7 @@ currentpage={this.state.currentpage}
 
 </Tabs>
 </div>
+<Enquiry/>
 <Footer/>
 </div>
 
