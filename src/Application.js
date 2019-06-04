@@ -4,6 +4,7 @@ import Home from './component/Home'
 import About from './component/AboutPage/About'
 import Service from './component/ServicesPage/Service'
 import Contact from './component/ContactUs/Contact'
+import Portfolio from './component/Portfolio/portfolio';
 export default class Firstsec extends Component {
     render() {
         return (
@@ -13,6 +14,7 @@ export default class Firstsec extends Component {
 		<Route path="/about" exact component={About}/>
 		<Route path="/service" exact component={Service}/>
 		<Route path="/contact" exact component={Contact}/>
+		<Route path="/portfolio" exact component={Portfolio}/>
 		</Router>
 		
 		</div>

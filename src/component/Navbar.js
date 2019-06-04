@@ -16,16 +16,16 @@ return(
   </button>
   <div className="collapse navbar-collapse" id="navbarNavDropdown">
     <ul className="navbar-nav">
-	<Link to={{pathname:"/"}}>
+	
       <li className="nav-item active">
-        <a className="nav-link colorchange" href="#">Home <span className="sr-only">(current)</span></a>
+        <a className="nav-link colorchange" href="/">Home <span className="sr-only">(current)</span></a>
       </li>
-	  </Link>
-	  <Link to={{pathname:"/about"}}>
+	  
+
       <li className="nav-item ">
-        <a className="nav-link colorchange" href="#">About</a>
+        <a className="nav-link colorchange" href="/about">About</a>
       </li>
-	  </Link>
+
 	   </ul>
 	   
 	   <ul className="navbar-nav mx-auto mobilenone">
@@ -33,17 +33,21 @@ return(
 	   </ul>
 	   
 	  	  <ul className="navbar-nav">
-		  	  <Link to={{pathname:"/service"}}>
+		 
       <li className="nav-item ">
-        <a className="nav-link colorchange" href="#">Services</a>
+        <a className="nav-link colorchange" href="/service">Services</a>
       </li>
-	  </Link>
-	 
- <Link to={{pathname:"/contact"}}>
+	  
+	  
+                  <li className="nav-item ">
+                    <a className="nav-link colorchange" href="/portfolio">Portfolio</a>
+                  </li>
+               
+ 
        <li className="nav-item ">
-        <a className="nav-link colorchange" href="#">Contact Us</a>
+        <a className="nav-link colorchange" href="/contact">Contact Us</a>
       </li>
-	  </Link>
+	  
     </ul>
   </div>
 </nav>

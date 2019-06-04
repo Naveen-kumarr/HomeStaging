@@ -9,20 +9,20 @@ export default class extends Component {
         <div className="container box_Container randombox">
           <div className="row mx-0 Main_contant_Top">
             <div className="col-12  Cotant_Section_padding pt-0">
-              <h1 className="pb-5 pt-2">Send Us <span className="Cotant_span">A Message </span></h1>
+              <h1 className="pb-2 pt-5">Send Us <span className="Cotant_span">A Message </span></h1>
               <Form>
                 <Form.Group >
-                  <Form.Label>Name <i class="far fa-check-circle far_color"></i></Form.Label>
+                  <Form.Label>Name</Form.Label>
                   <Form.Control type="text" placeholder="" required/>
                 </Form.Group>
                 <Form.Group controlId="formBasicEmail">
-                  <Form.Label>Email  <i class="far fa-check-circle far_color"></i></Form.Label>
+                  <Form.Label>Email  </Form.Label>
                   <Form.Control type="email" placeholder="" required/>
 
                 </Form.Group>
 
                 <Form.Group >
-                  <Form.Label>Message <i class="far fa-check-circle far_color"></i></Form.Label>
+                  <Form.Label>Message </Form.Label>
                   <Form.Control type="text" required/>
                 </Form.Group>
 
