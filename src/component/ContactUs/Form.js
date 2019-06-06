@@ -50,10 +50,10 @@ export default class header extends Component {
                 </form>
 </div>
 <div className=" col-md-1 col-sm-12 sidenav">
-<a class="fa fa-facebook" ></a>
-<a class="fa fa-instagram" aria-hidden="true"></a>
-<a class="fa fa-twitter" ></a>
-<a class="fa fa-linkedin" ></a>
+<a class="fab fa-facebook" ></a>
+<a class="fab fa-instagram" aria-hidden="true"></a>
+<a class="fab fa-twitter" ></a>
+<a class="fab fa-linkedin" ></a>
 </div>
 </div>
 </div>
